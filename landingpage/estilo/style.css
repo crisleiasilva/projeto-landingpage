@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Handmade' ;
+    src:url('handmade.otf') format('opentype');
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Handmade';
+    font-size: 100%;
+    background-image: linear-gradient(to right , #A88679,#DB8E72);
+}
+
+.cabecalho {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap:24px;
+}
+
+.cabecalho-menu-item {
+
+}
+
